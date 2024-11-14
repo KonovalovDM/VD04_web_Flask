@@ -1,15 +1,22 @@
 from flask import Flask, render_template
-from datetime import datetime
 
 app = Flask(__name__)
 
+@app.route('/')
+def index():
+    return render_template('index.html')
 
-@app.route("/")
-def current_time():
-    now = datetime.now()
-    formatted_time = now.strftime('%Y-%m-%d %H:%M:%S')
-    return render_template('index.html', time=formatted_time)
+@app.route('/blog')
+def blog():
+    return render_template('blog.html')
 
+@app.route('/contacts')
+def contacts():
+    return render_template('contacts.html')
 
-if __name__ == "__main__":
-    app.run()
+@app.route('/about_them')
+def about_them():
+    return render_template('about_them.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)

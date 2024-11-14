@@ -1,0 +1,113 @@
+{% extends 'base.html' %}
+
+{% block title %}О НИХ{% endblock %}
+
+{% block content %}
+<div class="container d-flex flex-column justify-content-center align-items-center min-vh-100 text-center" style="padding-top:20px;">
+  <!--Добавьте отступ сверху-->
+      <h1>О НИХ,<br>О Главных героях фильмов</h1>
+      <p class="message fs-4"></p>
+  <!-- Секция: Аккордеон -->
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Джон Кри́стофер (Джо́нни) Депп II
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Джон Кри́стофер (Джо́нни) Депп II<br>(англ. John Christopher «Johnny» Depp II; род. 9 июня 1963, Оуэнсборо, Кентукки, США)<br>
+                Американский актёр, кинорежиссёр, музыкант, сценарист и продюсер.<br><br>Наибольшую известность Джонни принесли роли в фильмах
+                Тима Бёртона, в таких известных картинах, как:<br><br>«Эдвард Руки-ножницы», «Сонная Лощина», «Чарли и шоколадная фабрика»,
+                «Эд Вуд», «Суини Тодд, демон-парикмахер с Флит-стрит» и «Алиса в Стране чудес»,<br> мультфильм «Труп невесты»,
+                а также образ капитана Джека Воробья в серии фильмов «Пираты Карибского моря».<br>
+                Наиболее значимыми фильмами были признаны такие картины, как «Что гложет Гилберта Грэйпа», «Бенни и Джун», «Мертвец»,
+                «Донни Браско», «Страх и ненависть в Лас-Вегасе», «Кокаин», «Волшебная страна», «Турист».
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Альфре́до Джеймс (Аль) Пачи́но
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Альфре́до Джеймс (Аль) Пачи́но <br>(англ. Alfredo James (Al) Pacino; род. 25 апреля 1940, Восточный Гарлем, Манхэттен, Нью-Йорк, США)<br>
+                        Американский актёр театра, кино и телевидения, кинорежиссёр, сценарист.<br><br>
+                        Наиболее знаменит своими ролями гангстеров — Майкл Корлеоне в трилогии Фрэнсиса Форда Копполы «Крёстный отец» (1972, 1974, 1990) и Тони Монтана
+                        в фильме Брайана Де Пальма «Лицо со шрамом» (1983). Роль Фрэнка Слейда в фильме «Запах женщины» (1992) принесла актёру «Оскар» в номинации Лучшая
+                        мужская роль, что стало его первым успехом после семи предыдущих номинаций.<br>
+                        <br>Аль Пачино дебютировал в кино в 1969 году в фильме «Я, Натали», сыграв в нём незначительную второстепенную роль. В 1971 году он снялся во втором
+                        фильме, но теперь уже сыграл главную роль в драме «Паника в Нидл-Парке». В этом фильме актёра заметил Коппола и пригласил в «Крёстный отец» на роль Майкла Корлеоне.<br>
+                        <br>Помимо удачной карьеры в кино, Аль Пачино является знаковым театральным актёром. В 1969 и 1977 годах он был награждён престижной театральной
+                        премией «Тони». Кроме того, он является обладателем множества других наград, в том числе и от Американского института киноискусства. Аль Пачино
+                        вместе с Эллен Бёрстин возглавляет Актёрскую студию в Нью-Йорке.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Ро́берт Э́нтони Де Ни́ро-мла́дший
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Ро́берт Э́нтони Де Ни́ро-мла́дший (англ. Robert Anthony De Niro, Jr.;<br> род. 17 августа 1943, Нью-Йорк, Нью-Йорк или Манхэттен, Нью-Йорк)<br> Американский актёр, продюсер и режиссёр.<br><br>
+                        Наиболее известен своей работой в криминальных фильмах, триллерах и сотрудничеством с режиссёром Мартином Скорсезе. Лауреат премий «Золотой глобус» (1981, 2011) и «Оскар» (1975, 1981) (имеет более 35 наград за роли в кино).
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Ни́колас Кейдж
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Ни́колас Кейдж (англ. Nicolas Cage; настоящее имя — Ни́колас Ким Ко́ппола (англ. Nicolas Kim Coppola)<br>
+                род. 7 января 1964, Лонг-Бич, Лос-Анджелес, Калифорния, США)<br>
+                <br>Американский актёр, кинорежиссёр и продюсер. Лауреат премий «Оскар» и «Золотой глобус».<br>
+                <br>Кейдж известен огромным диапазоном ролей: от голливудских блокбастеров и фестивальных шедевров до
+                малобюджетных комедий и откровенно провальных проектов.<br> Из-за особенности игры в кино и отсутствия однозначного
+                амплуа Кейдж приобрёл культовый статус среди поклонников его творчества и титул одного из самых спорных актёров современности.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFive">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Хью Майкл Дже́кман
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Хью Майкл Дже́кман (англ. Hugh Michael Jackman; род. 12 октября 1968, Сидней, Новый Южный Уэльс, Австралия)
+                <br>Австралийский актёр, певец и продюсер. <br><br>Стал известен широкой публике по роли супергероя-мутанта Росомахи в серии фильмов «Люди Икс».<br>
+                Вершиной его актёрского мастерства по мнению критиков признана работа в детективном триллере «Пленницы» (2013).<br><br>
+                Широко известен по фильмам «Кейт и Лео», «Пароль „Рыба-меч“», «Ван Хельсинг», «Фонтан», «Престиж», «Живая сталь», «Отверженные»,
+                «Робот по имени Чаппи», «Австралия» и «Величайший шоумен».<br>
+                Номинант на премии «Оскар» (2013), BAFTA (2013) и «Золотой глобус» (2002, 2018), обладатель премии «Золотой глобус» (2013),
+                театральной премии «Тони» (2004, 2012), телевизионной премии «Эмми» (2005) и музыкальной премии «Грэмми» (2019).
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Добавляем ссылку на главную страницу -->
+    <a href="{{ url_for('index') }}" class="btn btn-primary">Вернуться на Главную страницу</a>
+  </div>
+{% endblock %}
